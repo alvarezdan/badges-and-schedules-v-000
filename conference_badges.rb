@@ -24,7 +24,7 @@ def printer(speakers)
     puts badge
   end
   assign_rooms(speakers).each do |assign|
-    puts assign
+    this_should_break
     binding.pry
   end
 end
